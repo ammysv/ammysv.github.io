@@ -29,13 +29,19 @@ main{
 }
 
 
-.titulo p{
+
+p{
     color:rgb(211, 209, 218);
     font-size: 1.1rem;
     text-align: center;
     padding-inline: 4rem;
 }
-
+h2{
+    color: rgb(245, 147, 48);
+    font-size: 2rem;
+    margin-top: -1rem;
+    text-align: center;
+}
 .lista a{
     display: inline-block;
     color:rgb(233, 215, 234);
@@ -59,7 +65,7 @@ main{
 
 ul{
     list-style-type: none;
-    
+    padding-left: 0;
 }
 
 

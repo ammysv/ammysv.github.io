@@ -1,39 +1,66 @@
-html{
-    background-color:orchid;
+*{
+    font-family: 'Anta', sans-serif;
+    margin: 0;
+    border: 1px solid black;
 }
 
-*{
-    border: solid 1px black
+body{
+    background-color:rgb(46, 66, 139);
 }
 
 main{
     display:flex;
-    justify-content: center;
+    flex-flow: column;
     align-items: center; 
-    flex-direction: column;
-    padding-top: 5rem;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 4rem;
 }
 
-.titulo h1{
-    color:darkslateblue;
-    font-size: 6rem;
+.honk {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 8rem;
+  text-align: center;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 35;
 }
 
-.nav a{
-    color:midnightblue;
-    background-color: lightcyan;
-   
+
+.titulo p{
+    color:rgb(211, 209, 218);
+    font-size: 1.1rem;
+    text-align: center;
+    padding-inline: 4rem;
 }
 
-.nav ul{
-    list-style: none;
+.lista a{
+    display: inline-block;
+    color:rgb(233, 215, 234);
+    background-color: rgb(0, 0, 0);
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
+    margin-block: 0.5rem;
+    padding-inline: 4rem;
+    padding-block: 0.4rem;
+    border-radius: 16px;
+    border: 3px solid rgb(216, 155, 13);
+}
+
+.lista a:hover{
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: rgb(223, 37, 155);
+    color: rgb(255, 255, 255);
+    border: 4px solid rgb(0, 0, 0);
+    transition: 0.3s;
+    transform: scale(1.4) rotate(2deg);
+}
+
+ul{
+    list-style-type: none;
     
 }
-.gilda-display-regular {
-  font-family: "Gilda Display", serif;
-  font-weight: 400;
-  font-style: normal;
-}
+
+
+

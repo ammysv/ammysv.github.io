@@ -21,6 +21,7 @@ main {
   font-style: normal;
   font-size: 12rem;
   text-align: center;
+  margin-top: -4rem;
   font-variation-settings:
     "MORF" 15,
     "SHLN" 40;
@@ -75,5 +76,6 @@ p.footer {
   color: rgb(211, 209, 218);
   font-size: 0.8rem;
   text-align: center;
-  margin-top: 1.8rem;
+  margin-top: 1.5rem;
+  padding-bottom: 2rem;
 }

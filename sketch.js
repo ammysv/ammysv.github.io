@@ -14,8 +14,8 @@ function setup() {
   let area = createCanvas(windowWidth, windowHeight);
   area.position(0, 0);
   area.style("z-index", "-1"); // enviar al fondo
-
   fondo.loop();
+  fondo.setVolume(0.2);
 
   for (let i = 0; i < 300; i++) {
     particulas.push(new Particulapequeña(random(width), random(height)));
@@ -24,7 +24,7 @@ function setup() {
 
 function mousePressed() {
   clic.play();
-  clic.setVolume(0.1);
+  clic.setVolume(1);
 }
 
 function draw() {

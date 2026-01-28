@@ -14,7 +14,7 @@ function setup() {
   let area = createCanvas(windowWidth, windowHeight);
   area.position(0, 0);
   area.style("z-index", "-1"); // enviar al fondo
-  fondo.autoplay();
+
   fondo.loop();
 
   for (let i = 0; i < 300; i++) {
